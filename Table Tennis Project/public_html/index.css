@@ -6,7 +6,21 @@ body{background-color:#C60;}
 body{font-family:"Century Gothic", Cambria, "Hoefler Text", "Liberation Serif",Ariel, Times, "Times New Roman", serif}
 body{margin:20px;
 	padding:0;}
-	.logo{	float:left;	margin:0 30px;	}h1.title{	text-align:center;	vertical-align:middle;	font-size:32px;}	
+
+	
+.logo
+{
+	float:left;
+	margin:0 30px;
+	}
+
+h1.title
+{
+	text-align:center;
+	vertical-align:middle;
+	font-size:32px;
+}
+	
 h1.border
 {
 	/*color:Crimson ;
@@ -72,7 +86,7 @@ h1.border
 a:link {color:#FFFFFF;}  /* unvisited link */
 a:visited {color:#FFFFFF;} /* visited link */
 a:hover {color:#A0A0A0;}  /* mouse over link */
-a:active {color:##707070;} /* selected link */
+a:active {color:#707070;} /* selected link */
 
 div.sidebar_inner{
 	padding-left:10px;
