@@ -59,7 +59,6 @@ h1.border
 	width:20%;
 	min-width:137px;
 	height:100%;
-        min-height:1920px;
 	background-color:#93A5C4;
 	margin-right:10px;
 }
@@ -71,10 +70,14 @@ h1.border
 	width:85%;
 	margin:0 auto;
 	background-color:#FFF;
-	overflow: scroll;
-	border-radius:20px;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
+	overflow: auto;
+	//border-radius:20px;
+	//-moz-border-radius:20px;
+	//-webkit-border-radius:20px;
+}
+
+.textcontainer {
+    
 }
 
 .header {
