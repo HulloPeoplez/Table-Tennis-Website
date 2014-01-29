@@ -2,10 +2,23 @@
 /* CSS Document */
 
 
-body{background-color:#C60;}
+body{background-color:#FFF;}
 body{font-family:"Century Gothic", Cambria, "Hoefler Text", "Liberation Serif",Ariel, Times, "Times New Roman", serif}
 body{margin:20px;
 	padding:0;}
+body{
+    background-image: -ms-radial-gradient(right bottom, circle farthest-corner, #FFFFFF 0%, #AAEFDA 100%);
+ 
+background-image: -moz-radial-gradient(right bottom, circle farthest-corner, #FFFFFF 0%, #AAEFDA 100%);
+
+background-image: -o-radial-gradient(right bottom, circle farthest-corner, #FFFFFF 0%, #AAEFDA 100%);
+
+background-image: -webkit-gradient(radial, right bottom, 0, right bottom, 1012, color-stop(0, #FFFFFF), color-stop(1, #AAEFDA));
+
+background-image: -webkit-radial-gradient(right bottom, circle farthest-corner, #FFFFFF 0%, #AAEFDA 100%);
+
+background-image: radial-gradient(circle farthest-corner at right bottom, #FFFFFF 0%, #AAEFDA 100%);
+}
 
 	
 .logo
@@ -46,33 +59,35 @@ h1.border
 	width:20%;
 	min-width:137px;
 	height:100%;
+        min-height:1920px;
 	background-color:#93A5C4;
 	margin-right:10px;
 }
 
 .container {
+        border: 7px outset #990033;
 	min-width:610px;
 	height:100%;
 	width:85%;
 	margin:0 auto;
 	background-color:#FFF;
-	overflow:hidden;
+	overflow: scroll;
 	border-radius:20px;
 	-moz-border-radius:20px;
 	-webkit-border-radius:20px;
 }
 
 .header {
-	min-width:610px;
+	//min-width:610px;
 	height:100%;
-	width:85%;
-	margin:20px auto;
+	//width:85%;
+	//margin:20px auto;
 	background-color:#669900;
-	border:solid thin #000;
+	//border:solid thin #000;
 	overflow:hidden;
-	border-radius:20px;
-	-moz-border-radius:20px;
-	-webkit-border-radius:20px;
+	//border-radius:20px;
+	//-moz-border-radius:20px;
+	//-webkit-border-radius:20px;
 }
 
 .links
