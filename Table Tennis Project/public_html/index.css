@@ -25,6 +25,7 @@ background-image: radial-gradient(circle farthest-corner at right bottom, #FFFFF
 {
 	float:left;
 	margin:0 30px;
+        float: top;
 	}
 
 h1.title
@@ -60,7 +61,7 @@ h1.border
 	min-width:137px;
 	height:100%;
 	background-color:#93A5C4;
-	margin-right:10px;
+	//margin-right:10px;
 }
 
 .container {
@@ -69,7 +70,7 @@ h1.border
 	height:100%;
 	width:85%;
 	margin:0 auto;
-	background-color:#FFF;
+	background-color:#93A5C4;
 	overflow: auto;
 	//border-radius:20px;
 	//-moz-border-radius:20px;
@@ -77,7 +78,12 @@ h1.border
 }
 
 .textcontainer {
-    
+        width:80%;
+        height:100%;
+        background-color: #FF0000;
+        overflow: hidden;
+        float: right;
+        margin:0 auto;
 }
 
 .header {
